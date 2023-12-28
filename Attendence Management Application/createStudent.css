@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgb(91, 1, 94);
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .addStudent {
+    background-color:black;
+    box-shadow: 0 0 50px rgb(158, 0, 163);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .addStudentWork {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="text"]::placeholder,
+  input[type="email"]::placeholder {
+    color: #999;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .batchNo {
+    margin-top: 10px;
+  }
+  
+  .done {
+    background-color: rgb(104, 6, 107) ;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Arial;
+  }
+  
+  .done:hover {
+    background-color: rgb(116, 60, 128);
+  }
+ 

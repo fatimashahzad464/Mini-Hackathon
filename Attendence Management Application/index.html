@@ -1,0 +1,51 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Signup</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="form-wrapper sign-up active">
+                <form action="">
+                    <h2>Signup</h2>
+                    <div class="input-group">
+                        <input type="text" required id="first-name">
+                        <label for="first-name">First Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" required id="last-name">
+                        <label for="last-name">Last Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" required id="signup-email">
+                        <label for="signup-email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" required id="signup-password">
+                        <label for="signup-password">Password</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" required id="signup-repeat-password">
+                        <label for="signup-repeat-password">Repeat Password</label>
+                    </div>
+                    <div class="remember">
+                        <label for="checkbox"><input type="checkbox" id="checkbox"> I agree to the terms & conditions</label>
+                    </div>
+                    <button type="button" id="signupBtn">Sign Up</button>
+                    <div class="signUp-link">
+                        <p>Already have an account? <a href="./login.html" id="loginBtn">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script type="module" src="./config.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script type="module" src="./app.js"></script>
+    
+</body>
+</html>

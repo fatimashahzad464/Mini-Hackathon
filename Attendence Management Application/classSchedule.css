@@ -1,0 +1,110 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color and text color to the body */
+body {
+    background-color: black;
+    color: yellow;
+    font-family: Arial;
+    
+}
+
+
+/* Center the entire content vertically and horizontally */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-family: arial;
+
+}
+
+/* Style the form container */
+.addClass {
+    background-color:black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgb(255, 255, 2);
+    text-align: center;
+    width: 150%;
+}
+
+/* Style form elements */
+.addClassWork label,
+.addClassWork select,
+.addClassWork input[type="text"],
+.addClassWork button {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the "Done" button */
+.addClassWork button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+.addClassWork button:hover {
+    background-color: ;
+}
+
+/* Center the form elements horizontally */
+.addClassWork select,
+.addClassWork input[type="text"] {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the teacher's name input */
+.teachersName {
+    font-style: italic;
+}
+
+/* Style the batch number input */
+.batchNo {
+    font-weight: bold;
+}
+
+/* Style select elements */
+.addClassWork select {
+    padding: 5px;
+}
+
+/* Add some margin to the form elements */
+.addClassWork label,
+.addClassWork select,
+.addClassWork input[type="text"],
+.addClassWork button {
+    margin-top: 15px;
+}
+
+/* Add spacing between label and select elements */
+.addClassWork label {
+    margin-bottom: 5px;
+}
